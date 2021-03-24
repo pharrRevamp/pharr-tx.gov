@@ -1,0 +1,27 @@
+.center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerRow() {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.centerRowTop() {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.centerRowBottom() {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.imageBG(@img) {
+  background: url(@img) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
