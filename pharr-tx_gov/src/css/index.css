@@ -123,3 +123,20 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.NavBar nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+.NavBar nav a {
+  font-size: 1.6rem;
+  color: #393836;
+  width: 18%;
+  text-align: center;
+  text-decoration: none;
+  padding: 1%;
+}
+.NavBar nav a:hover {
+  color: pink;
+  border-top: solid #003f81 3px;
+}
