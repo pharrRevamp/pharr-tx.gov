@@ -1,18 +1,38 @@
 .NavBar {
+  padding-bottom: 1%;
+  border-bottom: solid @trimColor1 3px;
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1%;
+  }
+  h1 {
+    // border: solid black 1px;
+    text-align: center;
+    width: 35%;
+  }
   nav {
+    // border: solid black 1px;
     display: flex;
     justify-content: space-evenly;
     width: 60%;
     a {
-      font-size: @contentFont;
+      font-size: @mediumFont;
       color: @mainFontColor2;
+      height: auto;
       width: 18%;
-      text-align: center;
+      // text-align: center;
       text-decoration: none;
-      padding: 1%;
+      border-top: solid white 3px;
+      border-bottom: solid white 3px;
+      padding: 2%;
+      .center();
       &:hover {
-        color: pink;
-        border-top: solid @trimColor1 3px;
+        background: @footerBackground;
+        color: @trimColor1;
+        border-top: solid @trimColor3 3px;
+        border-bottom: solid @trimColor1 3px;
       }
     } // a
   } // nav
