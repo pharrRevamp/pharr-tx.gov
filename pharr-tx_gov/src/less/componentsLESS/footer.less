@@ -3,9 +3,16 @@
   color: @mainFontColor3;
   display: flex;
   justify-content: center;
-  // width: 100%;
-  padding: 5%;
-
+  padding: 5%;  
+  @media @tablet{
+    display:flex;
+    flex-direction: column;    
+  }
+  @media @mobile{
+    display:flex;
+    flex-direction: column;        
+  }
+  
   p {
     color: black;
     padding: 5px;
@@ -17,24 +24,54 @@
   }
   h3 {
     padding: 5px;
+    @media @tablet{
+      text-decoration: underline;
+    }
+    @media @mobile{
+      text-decoration: underline;
+    }
   }
   .Quicklinks {
     width: 15%;
     display: flex;
     flex-direction: column;
+    @media @tablet{
+      width:100%;
+    }
+    @media @mobile{
+      width:100%;
+    }
   }
   .Citydepartments {
     width: 15%;
     display: flex;
     flex-direction: column;
+    @media @tablet{
+      width:100%;
+    }
+    @media @mobile{
+      width:100%;
+    }
   }
   .Quickcontact {
     width: 15%;
     display: flex;
     flex-direction: column;
+    @media @tablet{
+      width:100%;
+    }
+    @media @mobile{
+      width:100%;
+    }
   }
   .Connectwithpharr {
     width: 15%;
+    @media @tablet{
+      width:100%;
+    }
+    @media @mobile{
+      width:100%;
+    }
   }
 }
 .Footer2 {
