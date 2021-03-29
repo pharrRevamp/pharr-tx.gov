@@ -169,8 +169,19 @@ body {
   color: #555555;
   display: flex;
   justify-content: center;
-  width: 100%;
   padding: 50px;
+}
+@media (max-width:1024px) {
+  .Footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width:500px) {
+  .Footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .Footer p {
   color: black;
@@ -184,23 +195,73 @@ body {
 .Footer h3 {
   padding: 5px;
 }
+@media (max-width:1024px) {
+  .Footer h3 {
+    text-decoration: underline;
+  }
+}
+@media (max-width:500px) {
+  .Footer h3 {
+    text-decoration: underline;
+  }
+}
 .Footer .Quicklinks {
   width: 15%;
   display: flex;
   flex-direction: column;
+}
+@media (max-width:1024px) {
+  .Footer .Quicklinks {
+    width: 100%;
+  }
+}
+@media (max-width:500px) {
+  .Footer .Quicklinks {
+    width: 100%;
+  }
 }
 .Footer .Citydepartments {
   width: 15%;
   display: flex;
   flex-direction: column;
 }
+@media (max-width:1024px) {
+  .Footer .Citydepartments {
+    width: 100%;
+  }
+}
+@media (max-width:500px) {
+  .Footer .Citydepartments {
+    width: 100%;
+  }
+}
 .Footer .Quickcontact {
   width: 15%;
   display: flex;
   flex-direction: column;
 }
+@media (max-width:1024px) {
+  .Footer .Quickcontact {
+    width: 100%;
+  }
+}
+@media (max-width:500px) {
+  .Footer .Quickcontact {
+    width: 100%;
+  }
+}
 .Footer .Connectwithpharr {
   width: 15%;
+}
+@media (max-width:1024px) {
+  .Footer .Connectwithpharr {
+    width: 100%;
+  }
+}
+@media (max-width:500px) {
+  .Footer .Connectwithpharr {
+    width: 100%;
+  }
 }
 .Footer2 {
   background-color: black;
