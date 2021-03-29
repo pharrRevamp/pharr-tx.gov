@@ -164,3 +164,49 @@ body {
   border-top: solid #f5d230 3px;
   border-bottom: solid #003f81 3px;
 }
+.Footer {
+  background-color: #f0f0f0;
+  color: #555555;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 50px;
+}
+.Footer p {
+  color: black;
+  padding: 5px;
+}
+.Footer a {
+  padding: 5px;
+  color: #003f81;
+  text-decoration: none;
+}
+.Footer h3 {
+  padding: 5px;
+}
+.Footer .Quicklinks {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.Footer .Citydepartments {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.Footer .Quickcontact {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.Footer .Connectwithpharr {
+  width: 15%;
+}
+.Footer2 {
+  background-color: black;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
