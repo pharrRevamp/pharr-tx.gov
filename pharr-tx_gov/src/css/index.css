@@ -124,7 +124,7 @@ table {
   border-spacing: 0;
 }
 body {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .NavBar {
   border-bottom: solid #003f81 5px;
@@ -155,21 +155,28 @@ body {
   color: #003f81;
 }
 .NavBar ul {
-  border: solid black 1px;
+  border-top: solid #f5d230 5px;
+  box-shadow: 1px 5px 15px #252525;
   position: absolute;
   width: 12.54%;
   overflow: auto;
+  background: white;
   display: none;
 }
 .NavBar ul a {
-  font-size: 1rem;
+  border-bottom: solid #011e40 1px;
+  font-size: 1.1rem;
+}
+.NavBar ul a:hover {
+  background: #f1f1f1;
+  color: #231f20;
 }
 .Footer {
   background-color: #f0f0f0;
   color: #555555;
   display: flex;
   justify-content: center;
-  padding: 50px;
+  padding: 5%;
 }
 @media (max-width:1024px) {
   .Footer {
