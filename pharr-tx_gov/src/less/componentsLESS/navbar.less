@@ -1,39 +1,41 @@
 .NavBar {
-  padding-bottom: 1%;
-  border-bottom: solid @trimColor1 3px;
+  border-bottom: solid @trimColor1 5px;
+  // padding-bottom: 0.5%;
   header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 1%;
-  }
-  h1 {
-    // border: solid black 1px;
-    text-align: center;
-    width: 35%;
-  }
-  nav {
-    // border: solid black 1px;
+    // .b();
     display: flex;
     justify-content: space-evenly;
-    width: 60%;
-    a {
-      font-size: @mediumFont;
-      color: @mainFontColor2;
-      height: auto;
+    align-items: center;
+    // margin-bottom: 2%;
+  } // header
+  img {
+    width: 15%;
+  } //img
+  nav {
+    // .b();
+    font-size: @mediumFont;
+    .centerText();
+    width: 70%;
+    div {
+      text-align: center;
       width: 18%;
-      // text-align: center;
+    }
+    a {
+      // .b();
+      display: block;
+      padding: 10%;
       text-decoration: none;
-      border-top: solid white 3px;
-      border-bottom: solid white 3px;
-      padding: 2%;
-      .center();
-      &:hover {
-        background: @footerBackground;
-        color: @trimColor1;
-        border-top: solid @trimColor3 3px;
-        border-bottom: solid @trimColor1 3px;
-      }
-    } // a
-  } // nav
+      color: @trimColor1;
+    }
+  }
+  ul {
+    .b();
+    position: absolute;
+    width: 12.54%;
+    overflow: auto;
+    display: none;
+    a {
+      font-size: @smallFont;
+    }
+  } //ul
 } // navbar
