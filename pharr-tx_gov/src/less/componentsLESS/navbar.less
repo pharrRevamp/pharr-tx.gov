@@ -29,13 +29,21 @@
     }
   }
   ul {
-    .b();
+    // .b();
+    border-top: solid @trimColor3 5px;
+    box-shadow: 1px 5px 15px #252525;
     position: absolute;
     width: 12.54%;
     overflow: auto;
+    background: white;
     display: none;
     a {
+      border-bottom: solid @trimColor2 1px;
       font-size: @smallFont;
+      &:hover {
+        background: @footerBackground;
+        color: @mainFontColor4;
+      }
     }
   } //ul
 } // navbar
