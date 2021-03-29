@@ -210,11 +210,3 @@ body {
   align-items: center;
   justify-content: center;
 }
-.Footer2 {
-  background-color: black;
-  color: white;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}

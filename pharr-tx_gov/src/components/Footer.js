@@ -50,7 +50,11 @@ function Footer() {
           <h3>CONNECT WITH PHARR</h3>
         </div>
       </footer>
+      <div className="Footer2">
+            <p>Copyright City of Pharr,Texas All Rights Reserved</p>
+        </div>
     </div>    
+    
   );
 }
 export default Footer;
